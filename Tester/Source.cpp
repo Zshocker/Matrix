@@ -1,4 +1,5 @@
 #include"Matrix.h"
+using namespace Math;
 void main() {
 	Matrix Ar(2, 4);
 	Ar.Remplissage(4);

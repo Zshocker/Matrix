@@ -4,7 +4,7 @@
 #include"assert.h"
 using namespace std;
 
-
+using namespace Math;
 void Matrix::Remplissage(int elem)
 {
 	for (int i = 0; i < this->numL; i++)
