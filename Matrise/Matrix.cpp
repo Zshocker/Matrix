@@ -65,7 +65,7 @@ Matrix* Matrix::operator*(const Matrix&R) const
 			nM->Matx[i][j]=0;
 			for (int k = 0; k <this->numC; k++)
 			{
-				nM->Matx[i][j] +=this->Matx[i][k]*R.Matx[k][i];
+				nM->Matx[i][j] +=this->Matx[i][k]*R.Matx[k][j];
 			}
 		}
 	}
