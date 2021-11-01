@@ -103,7 +103,7 @@ Matrix::~Matrix()
 {
 	for (int i = 0; i < this->numL; i++)
 	{
-		delete this->Matx[i];
+		delete[] this->Matx[i];
 		this->Matx[i] = NULL;
 	}
 	delete this->Matx;
